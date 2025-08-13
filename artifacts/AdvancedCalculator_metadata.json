@@ -1,0 +1,88 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "a",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "b",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint8",
+						"name": "operation",
+						"type": "uint8"
+					}
+				],
+				"name": "performOp",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "result",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"solidity learning/contracts/ex.sol": "AdvancedCalculator"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"solidity learning/contracts/ex.sol": {
+			"keccak256": "0x655e6e0b8c1b0e13c7dd75e7b51845323cc4c3dbf269bdb8c7a4ee61ae2d476c",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://a118f71da6b467d0469196a2b28666cb20c4c978e60b856f6762408037c0afd4",
+				"dweb:/ipfs/QmeR8rVv7MBz7G4BJh11ko1E3WetEjVx4VZn81FHWwU6iY"
+			]
+		}
+	},
+	"version": 1
+}
