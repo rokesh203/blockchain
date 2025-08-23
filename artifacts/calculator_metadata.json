@@ -8,25 +8,12 @@
 			{
 				"inputs": [
 					{
-						"internalType": "uint8",
+						"internalType": "uint256",
 						"name": "num",
-						"type": "uint8"
+						"type": "uint256"
 					}
 				],
 				"name": "add",
-				"outputs": [],
-				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "uint8",
-						"name": "num",
-						"type": "uint8"
-					}
-				],
-				"name": "div",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
@@ -36,9 +23,9 @@
 				"name": "get",
 				"outputs": [
 					{
-						"internalType": "uint8",
+						"internalType": "uint256",
 						"name": "",
-						"type": "uint8"
+						"type": "uint256"
 					}
 				],
 				"stateMutability": "view",
@@ -47,9 +34,35 @@
 			{
 				"inputs": [
 					{
-						"internalType": "uint8",
+						"internalType": "uint256",
 						"name": "num",
-						"type": "uint8"
+						"type": "uint256"
+					}
+				],
+				"name": "mul",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "result",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "num",
+						"type": "uint256"
 					}
 				],
 				"name": "sub",
@@ -71,7 +84,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"solidity learning/contracts/cal.sol": "calculator"
+			"solidity learning/contracts/external.sol": "calculator"
 		},
 		"evmVersion": "prague",
 		"libraries": {},
@@ -85,12 +98,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"solidity learning/contracts/cal.sol": {
-			"keccak256": "0x9f6d7ee19d9bf9a6013f5f6a664bfab76010fbdfc44ecea8e6e7ce51e0f98ae5",
+		"solidity learning/contracts/external.sol": {
+			"keccak256": "0x650077738d37bdd057e024fe3a94cf1357295268ac6a9d00cc02c1877f0745be",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://e51d7ccaa77f10d38061d2ff7b86d44b17038309aca656850977f91d08882ca9",
-				"dweb:/ipfs/QmUnYKRHa1Xoeqhj6CMuSP5p7ogsYXcA8uvs4NyxU9miGT"
+				"bzz-raw://f5dad86d3ccf0fb7fbc339af8f1629d90eb0933392cca9c5943c4a15c8fe6b8f",
+				"dweb:/ipfs/QmXQWD2DdDE4QiQusiRg8VVeFTKd1tg3RUyh2snZ5trosW"
 			]
 		}
 	},
